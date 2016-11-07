@@ -35,10 +35,26 @@ body {
 
 #top_menu ul li{
 	display: inline;
+}
+
+#top_menu ul li a{
+	text-decoration: none;
+	display: inline;
 	padding-left: 36px;
 	font-size: 12px;
 	font-family: "OpenSans";
 	color: #DEDEDE;
+	font-weight: bold;
+	line-height: 1.351;
+}
+
+#top_menu ul li a:hover{
+	text-decoration: none;
+	display: inline;
+	padding-left: 36px;
+	font-size: 12px;
+	font-family: "OpenSans";
+	color: #DE46DE;
 	font-weight: bold;
 	line-height: 1.351;
 }
@@ -95,7 +111,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	font-size: 12px;
+	font-size: 13px;
 	color: #6A6A6A;
 	font-weight: lighter;
 	text-align: left;
@@ -122,7 +138,7 @@ body {
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
 
-.social_buttons ul{
+.social_buttons{
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -207,13 +223,12 @@ body {
 	font-size: 12px;
 	font-family: "OpenSans";
 	color: #797979;
-	line-height: 1.891;
+	line-height: 34px;
 	text-align: left;
 }
 
 .num_like{
 	margin: 0;
-	padding-top: 6px; 
 	float: right;
 }
 
@@ -249,7 +264,6 @@ body {
 }
 
 .date{
-	padding-top: 6px;
 	margin: 0;
 	float: left;
 }
@@ -277,13 +291,12 @@ body {
 }
 
 .footer_block p{
-	font-size: 10px;
+	font-size: 12px;
 	font-family: "OpenSans";
 	color: #B9B9B9;
 	line-height: 2.083;
 	text-align: left;
 }
-
 
 #footer{
 	padding-top: 65px;
@@ -362,13 +375,19 @@ body {
 
 #player{
 	float: right;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	width: 90%;
+	height: 30px;
+	background-image: url(../img/player.png);
+	background-size: cover;
+	background-position: center;
+	margin-right: 20px;
+	margin-bottom: 20px
+
 }
 
 #play{
 	position: absolute;
-	padding-left: 20px;
 	padding-top: 10px;
+	margin-left: 1%;
 	float: left;
 }
