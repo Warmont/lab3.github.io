@@ -97,9 +97,9 @@ body {
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 18px;
+	font-size: 19px;
 	font-family: "OpenSansLight";
-	color: #B9B9B9;
+	color: #9C9C9C;
 	font-style: italic;
 	font-weight: lighter;
 	line-height: 1.389;
@@ -111,7 +111,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	font-size: 13px;
+	font-size: 14px;
 	color: #6A6A6A;
 	font-weight: lighter;
 	text-align: left;
@@ -135,12 +135,15 @@ body {
 	font-style: italic;
 	line-height: 1.273;
 	text-align: center;
-	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
 
 .social_buttons{
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.social_buttons{
+	border: none;
 }
 
 .social_buttons li{
@@ -151,14 +154,14 @@ body {
 	width: 48%;
 	height: 100%;
 	float: left;
-	margin-right: 15px;
+	margin-right: 2%
 }
 
 #content_column_right{
 	width: 48%;
 	height: 100%;
 	float: right;
-	margin-left: 15px;
+	margin-left: 2%;
 }
 
 .content_object{
@@ -227,11 +230,6 @@ body {
 	text-align: left;
 }
 
-.num_like{
-	margin: 0;
-	float: right;
-}
-
 .galery_button{
 	position: relative;
 	top: -35px;
@@ -263,13 +261,20 @@ body {
 	float: right;
 }
 
+.num_like{
+	margin: 0;
+	margin-left: -12px;
+	float: right;
+}
+
 .date{
 	margin: 0;
+	margin-left: -10px;
 	float: left;
 }
 
 .category{
-	padding-top: 12px;
+	padding-top: 11px;
 	padding-left: 20px;
 	margin: 0;
 	float: left;
